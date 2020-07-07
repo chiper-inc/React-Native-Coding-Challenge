@@ -18,7 +18,7 @@ https://github.com/reddit/reddit/wiki/JSON
 * Each post must show the following data: thumbnail image (if present), title, author, total number of votes (score), number of comments and date of creation
 * Example layout:
 
-  ![image](https://chiper-mobile.s3.amazonaws.com/showcase.gif)
+  ![](showcase.gif)
 * Once the user taps on a post navigate to the post’s URL in a WebView
 * A brief explanation of your design and assumptions along with your code.
 
