@@ -1,3 +1,8 @@
+
+# Ingeniero Luis Carneiro
+
+La elaboración consta de un navegador de tabs y otro sin tabs, además la key del navegador de cada tab se usa para filtrar el contenido por la categoría. También se usó faltlist, react-navigation y react-native-webview
+
 # React Native Coding Challenge
 
 In this challenge you're going to create a basic Reddit app with React Native
