@@ -39,7 +39,7 @@ https://github.com/reddit/reddit/wiki/JSON
 
 ## Notes:
 
-* You can use [expo-cli](https://expo.io/learn) to bootstrap your app but we highly recommend using React Native bare. Keep in mind that the app must be easily executable.
+* You can use [expo-cli](https://expo.io/learn) to bootstrap your app but **we highly recommend** using [React Native bare](https://reactnative.dev/docs/environment-setup). Keep in mind that the app must be easily executable.
 * Send us your code in a github repo.
 
 Good luck!
