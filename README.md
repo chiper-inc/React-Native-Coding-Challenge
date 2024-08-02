@@ -28,7 +28,7 @@ Therefore, you must use the API https://fakeapi.platzi.com and use it to create 
 *(Not mandatory, You can choose the ones you want additionally)*
 - Unit tests
 - Format price in a scalable way (set to dollar)
-- Add "Related Products" section to a product detail screen (other products in the same category)
+- Add "Related Products" section to product detail screen (other products in the same category)
 - Data caching
 - Renew the authorization token automatically
 - Have an account registration flow
