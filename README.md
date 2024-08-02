@@ -1,45 +1,42 @@
 # React Native Coding Challenge
 
-In this challenge you're going to create a basic Reddit app with React Native
+In this challenge you're going to create a basic ecommerce app with React Native and typescript.
 
-Reddit is a news website where registered users can submit posts or links to content that other users can vote and comment. Each of these posts is grouped into categories known as "subreddits".
+For this you use a public API to simulate an ecommerce.
 
-Your web app should list the last posts of the r/pics subreddit.
-
-To obtain the list of posts of a subreddit use the following URL:
-https://api.reddit.com/r/pics/hot.json
-
-For more information about the JSON structure see:
-https://github.com/reddit/reddit/wiki/JSON 
+Therefore, you must use the API https://fakeapi.platzi.com and use it to create an application that allows you to view the products and their categories.
 
 ## Requirements:
 
-* Show a list of the posts in the r/pics subreddit
-* Each post must show the following data: thumbnail image (if present), title, author, total number of votes (score), number of comments and date of creation
-* Example layout (basic example):
-
-  ![](showcase.gif)
-* Once the user taps on a post navigate to the post’s URL in a WebView
-* A brief explanation of your design and assumptions along with your code.
+* Show a list of products with a searchbar (It must be possible to filter).
+* Each product must show the following data: first image, title, price and category.
+* Once the user taps on a product, they navigate to a detail screen for that product.
+* The detail screen must have a carrousel of product images.
+* The app must be protected with a login.
 
 ## What will we evaluate?
 
 - Code quality
-- Usage of patterns
+- Code complexity
+- Usage of hooks
 - Networking code
 - Language skills
 - Project structure
+- Global state use
 
-## Extra points (not required):
-
+## Extra points:
+*(Not mandatory, you can choose whichever you want additionally)*
 - Unit tests
-- Date of creation in a relative format (e.g. “1 day ago”)
-- Ability to sort the posts list (“top”, “new”, “hot” or “controversial”)
+- Format price in a scalable way (set to dollar)
+- Add "Related Products" section to a product detail screen (other products in the same category)
 - Data caching
+- Renew the authorization token automatically
+- Have an account registration flow
+- Surprise us with some other feature 
 
 ## Notes:
 
-* You can use [expo-cli](https://expo.io/learn) to bootstrap your app but **we highly recommend** using [React Native bare](https://reactnative.dev/docs/environment-setup). Keep in mind that the app must be easily executable.
+* You should use [React Native bare](https://reactnative.dev/docs/environment-setup). Keep in mind that the app must be easily executable.
 * Send us your code in a github repo.
 
 Good luck!
