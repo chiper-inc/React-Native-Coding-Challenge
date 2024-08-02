@@ -25,7 +25,7 @@ Therefore, you must use the API https://fakeapi.platzi.com and use it to create 
 - Global state use
 
 ## Extra points:
-*(Not mandatory, you can choose whichever you want additionally)*
+*(Not mandatory, You can choose the ones you want additionally)*
 - Unit tests
 - Format price in a scalable way (set to dollar)
 - Add "Related Products" section to a product detail screen (other products in the same category)
